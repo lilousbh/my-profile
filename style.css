@@ -52,10 +52,15 @@ a:hover {
 }
 
 .btn-blue {
-	background-color: blue
-	color:white
-	padding 15px 20px
-	border-radius 4px;
+	background-color: #6c6cc0;
+	color:white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background: pink;
+	color: white;
 }
 
 .list-inline {
@@ -64,9 +69,18 @@ a:hover {
 }
 
 .list-inline li {
+	width:20px;
 	display: inline;
 	padding: 10px;
-	font-size: 15px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: #6c6cc0;
+}
+
+.list-inline i:hover {
+	color: pink;
 }
 
 #introduction p {
